@@ -1,0 +1,45 @@
+<!--
+  ~ copyright (c)2018-8-15
+  ~ DXC technology
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dp">
+
+    <gospel.v2.pullableview.PullToRefreshLayout
+        android:id="@+id/refresh_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/refresh_head" />
+
+        <gospel.v2.pullableview.PullableListView
+            android:id="@+id/task_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/gray"
+            android:dividerHeight="1dp" />
+
+        <include layout="@layout/load_more" />
+
+    </gospel.v2.pullableview.PullToRefreshLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="ADD RECORD" />
+   <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="NO DATA" />
+
+
+</RelativeLayout>
