@@ -99,9 +99,6 @@
             android:name=".RegisterAcitvity"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name="gospel.v2.AddGasAcitvity"
-            android:screenOrientation="portrait"></activity>
-        <activity
             android:name="gospel.v2.HomeAcitvity"
             android:screenOrientation="portrait"></activity>
         <activity
@@ -116,13 +113,7 @@
             android:screenOrientation="portrait"></activity>
         <!--<activity android:name=".TaskDownloadActivity"></activity>-->
         <activity
-            android:name=".BlueToothFolder"
-            android:screenOrientation="portrait"></activity>
-        <activity
             android:name=".ShowExamineRecord"
-            android:screenOrientation="portrait"></activity>
-        <activity
-            android:name=".AddExamineRecord"
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".UserListAcitvity"
@@ -144,9 +135,6 @@
             android:screenOrientation="portrait"></activity>
         <activity
             android:name=".DeviceSettingActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".AboutSystemActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".UpdateSystemActivity"

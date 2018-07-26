@@ -23,7 +23,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import gospel.v2.AddGasAcitvity;
 import gospel.v2.R;
 import gospel.v2.dbhelp.SqliteUtils;
 import gospel.v2.model.GasInfo;
